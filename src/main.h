@@ -37,7 +37,7 @@ static const int64_t MIN_TX_FEE = 1000;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t MAX_MONEY = 1500000 * COIN; //1,5 million coins max PoW
 static const int64_t COIN_YEAR_REWARD = 10 * CENT; // 10% per year
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 0.10 * COIN;	// 10% Annual PoS Interest
+static const int64_t MAX_MINT_PROOF_OF_STAKE = 0.1 * COIN;	// 10% Annual PoS Interest
 static const int MODIFIER_INTERVAL_SWITCH = 5000;
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }

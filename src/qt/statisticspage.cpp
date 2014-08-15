@@ -151,11 +151,11 @@ void StatisticsPage::updateStatistics()
 
     if(volume > volumePrevious)
     {
-        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " BOOM" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " NHC" + "</font></b>");
     } else if(volume < volumePrevious) {
-        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " BOOM" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " NHC" + "</font></b>");
     } else {
-        ui->volumeBox->setText(qVolume + " BOOM");
+        ui->volumeBox->setText(qVolume + " NHC");
     }
     updatePrevious(nHeight, nMinWeight, nNetworkWeight, phase, nSubsidy, pHardness, pHardness2, pPawrate2, Qlpawrate, peers, volume);
 }
